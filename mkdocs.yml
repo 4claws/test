@@ -1,0 +1,46 @@
+site_name: Sabaku's Deltarune Wiki
+theme:
+  name: simple-blog
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - footnotes 
+  - abbr
+  - attr_list
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+watch:
+  - includes
+extra:
+  generator: false
+extra_css:
+  - style.css
+extra_javascript:
+  - javascript.js
+
+nav:
+  - 'Home': index.md
+  - 'La Profezia': profezia.md
+  - 'Plot Principale': plot.md
+  - 'Superboss': superboss.md
+  - "Diventare Piu' Forti": becomestronger.md
+  - 'I Dettagli': dettagli.md
+  - 'Crediti': credits.md
+
+validation:
+  links:
+    absolute_links: relative_to_docs
+    anchors: warn
+    unrecognized_links: warn
+
+plugins:
+  - glightbox

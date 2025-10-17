@@ -1,0 +1,6 @@
+mkdocs
+mkdocs-material
+markdown-katex
+mkdocs-simple-blog
+mkdocs-glightbox
+mkdocs-simple-blog
